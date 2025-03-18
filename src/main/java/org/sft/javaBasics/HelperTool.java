@@ -1,4 +1,4 @@
-package org.sft.javaBasics.day1;
+package org.sft.javaBasics;
 
 public class HelperTool {
 

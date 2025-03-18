@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://org.testng/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="tests">
+
+    <test name="ChromeTests">
+        <classes>
+            <class name="org.sft.testNG.ParallelExecutions" />
+        </classes>
+    </test>
+    <test name="FirefoxTests">
+        <classes>
+            <class name="org.sft.testNG.GroupTests" />
+        </classes>
+    </test>
+    <test name="SafariTests">
+        <classes>
+            <class name="org.sft.testNG.TestNGAnnotations" />
+        </classes>
+    </test>
+
+</suite>

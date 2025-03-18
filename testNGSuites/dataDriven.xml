@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataDriven">
+    <parameter name="db" value="sql"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="DataDriven Tests">
+        <parameter name="url" value="www.google.com"></parameter>
+        <classes>
+            <class name="org.sft.testNG.DataDrivenUsingXMLFile"/>
+            <parameter name="username" value="automation"></parameter>
+            <parameter name="password" value="test123"></parameter>
+        </classes>
+    </test>
+</suite>
