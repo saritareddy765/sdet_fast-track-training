@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 public class ParallelExecutions {
     @Test(groups = "smoke")
     public void test1(){
+
         System.out.println("Test1");
     }
 
